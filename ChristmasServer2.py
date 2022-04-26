@@ -106,7 +106,7 @@ def presentExchange():
     while True:
         # Date hard-coded as 25th December for testing purposes,
         # but in reality would be date = datetime.datetime.now()
-        date = datetime.datetime(2022, 12, 27)
+        date = datetime.datetime(2022, 12, 25)
         print("Date is: " + date.strftime("%d") + " " + date.strftime("%b"))
 
         # Generate random number in the range of 0 to 10
